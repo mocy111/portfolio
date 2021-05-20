@@ -12,14 +12,12 @@ const Footer = () => {
     const year = new Date().getFullYear()
 
     return (
-        <footer className="footer-area">
+        <footer className="footer-area" id="contact">
         <div className="container">
             <div className="">
                 <div className="site-logo text-center py-4">
                     <a href="!#"><img src={logo} alt="logo"/></a>
                 </div>
-               
-                
                     <div className="social text-center">
                         <h5 className="text-uppercase">Follow me</h5>
                         <div className="row ">
@@ -49,21 +47,11 @@ const Footer = () => {
                                             </div>
                         </div>
                      
-                       
-                        
-                      
-                       
-                      
-                       
-                    
                     </div>
                
-               
-               
-
                 <div className="copyrights text-center py-3">
                     <p className="para">
-                        Copyright ©{year} All rights reserved 
+                        Copyright ©{year} All rights reserved - Moctar Yonli
                     </p>
                 </div>
             </div>

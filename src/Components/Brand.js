@@ -12,9 +12,13 @@ import CallIcon from '@material-ui/icons/Call';
 import EmailIcon from '@material-ui/icons/Email';
 const Brand = () => {
     return (
-        <section className="brand-area">
+        <section className="brand-area" id="service"  >
         <div className="container-fluid">
             <div className="row">
+                <h1 className="text-center">
+                    <span className='text-uppercase'>Some technologies i work with</span>
+                </h1>
+               
                 <div className="col-xl-6 col-lg-12 col-md-12">
                     <div className="first-row row">
                         <div className="col-lg-4 col-md-6 col-sm-6">
@@ -64,22 +68,20 @@ const Brand = () => {
                         </div>
                     </div>
                 </div>
+                
                 <div className="col-xl-6 col-lg-12 col-md-12">
                     <div className="experience-area">
                         <div className="d-flex flex-row years-area">
                             {/* <h2 className="p-3 years">10</h2> */}
-                            <h1>
-                                <span className='text-uppercase'>Some technologies i work with</span>
-                               
-                            </h1>
-                        </div>
-                        <div className="d-flex flex-row flex-wrap call-area">
+                            <div className="d-flex flex-row flex-wrap call-area">
                             <span><EmailIcon fontSize="large"/> </span>
                             <div className="call-now">
                                 <a href="mailto:moctaryonli@gmail.com" className="text-uppercase h4 font-roboto">Contact me</a>
                                 <span className="font-roboto py-2">moctaryonli@gmail.com</span>
                             </div>
                         </div>
+                        </div>
+                       
                         <div className="d-flex flex-row flex-wrap call-area">
                             <span><CallIcon fontSize="large"/> </span>
                             <div className="call-now">

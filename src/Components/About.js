@@ -3,7 +3,7 @@ import AboutUs from '../img/about-us.png'
 import resume from '../CV/Moctar_Yonli.pdf'
 const About = () => {
     return (
-        <section className="about-area">
+        <section className="about-area" id="about">
         <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-6 col-md-12">
